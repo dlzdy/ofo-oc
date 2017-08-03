@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		197A27442C13AA014C724053 /* libPods-ofo-oc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4099A2CC7840929FFFD7F221 /* libPods-ofo-oc.a */; };
 		1FE2E5331F32C32B004B4A54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE2E5321F32C32B004B4A54 /* main.m */; };
 		1FE2E5361F32C32B004B4A54 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE2E5351F32C32B004B4A54 /* AppDelegate.m */; };
 		1FE2E5391F32C32B004B4A54 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE2E5381F32C32B004B4A54 /* ViewController.m */; };
@@ -26,6 +27,9 @@
 		1FE2E53D1F32C32B004B4A54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FE2E5401F32C32B004B4A54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FE2E5421F32C32B004B4A54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4099A2CC7840929FFFD7F221 /* libPods-ofo-oc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ofo-oc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61483A3AC7A31D3EE0CEB8E3 /* Pods-ofo-oc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ofo-oc.release.xcconfig"; path = "Pods/Target Support Files/Pods-ofo-oc/Pods-ofo-oc.release.xcconfig"; sourceTree = "<group>"; };
+		B649EE47F2FE73BB697F712B /* Pods-ofo-oc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ofo-oc.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ofo-oc/Pods-ofo-oc.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				197A27442C13AA014C724053 /* libPods-ofo-oc.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +49,8 @@
 			children = (
 				1FE2E5301F32C32B004B4A54 /* ofo-oc */,
 				1FE2E52F1F32C32B004B4A54 /* Products */,
+				26579508BE46B856AF159C9C /* Pods */,
+				27120AC38848AFAC7EB42C03 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +86,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		26579508BE46B856AF159C9C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B649EE47F2FE73BB697F712B /* Pods-ofo-oc.debug.xcconfig */,
+				61483A3AC7A31D3EE0CEB8E3 /* Pods-ofo-oc.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		27120AC38848AFAC7EB42C03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4099A2CC7840929FFFD7F221 /* libPods-ofo-oc.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1FE2E5451F32C32B004B4A54 /* Build configuration list for PBXNativeTarget "ofo-oc" */;
 			buildPhases = (
+				95A6EF71076453A75B45BD02 /* [CP] Check Pods Manifest.lock */,
 				1FE2E52A1F32C32B004B4A54 /* Sources */,
 				1FE2E52B1F32C32B004B4A54 /* Frameworks */,
 				1FE2E52C1F32C32B004B4A54 /* Resources */,
+				7D05E27D673B537B889B2275 /* [CP] Embed Pods Frameworks */,
+				EF5004944568E46174F62272 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -145,6 +172,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7D05E27D673B537B889B2275 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ofo-oc/Pods-ofo-oc-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95A6EF71076453A75B45BD02 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EF5004944568E46174F62272 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ofo-oc/Pods-ofo-oc-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1FE2E52A1F32C32B004B4A54 /* Sources */ = {
@@ -271,6 +346,7 @@
 		};
 		1FE2E5461F32C32B004B4A54 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B649EE47F2FE73BB697F712B /* Pods-ofo-oc.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -284,6 +360,7 @@
 		};
 		1FE2E5471F32C32B004B4A54 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61483A3AC7A31D3EE0CEB8E3 /* Pods-ofo-oc.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -314,6 +391,7 @@
 				1FE2E5471F32C32B004B4A54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
