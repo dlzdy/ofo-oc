@@ -8,21 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		197A27442C13AA014C724053 /* libPods-ofo-oc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4099A2CC7840929FFFD7F221 /* libPods-ofo-oc.a */; };
+		1F2ABEF11F340C230006CB5A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2ABEF01F340C230006CB5A /* ViewController.m */; };
+		1F2ABEF41F343E940006CB5A /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2ABEF31F343E940006CB5A /* NavigationViewController.m */; };
+		1F2ABEF81F345CAA0006CB5A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F2ABEF71F345CAA0006CB5A /* MapKit.framework */; };
+		1F2ABEFB1F345FD60006CB5A /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2ABEFA1F345FD60006CB5A /* WebViewController.m */; };
 		1FE2E5331F32C32B004B4A54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE2E5321F32C32B004B4A54 /* main.m */; };
 		1FE2E5361F32C32B004B4A54 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE2E5351F32C32B004B4A54 /* AppDelegate.m */; };
-		1FE2E5391F32C32B004B4A54 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE2E5381F32C32B004B4A54 /* ViewController.m */; };
 		1FE2E53C1F32C32B004B4A54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FE2E53A1F32C32B004B4A54 /* Main.storyboard */; };
 		1FE2E53E1F32C32B004B4A54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FE2E53D1F32C32B004B4A54 /* Assets.xcassets */; };
 		1FE2E5411F32C32B004B4A54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FE2E53F1F32C32B004B4A54 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F2ABEEF1F340C230006CB5A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1F2ABEF01F340C230006CB5A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1F2ABEF21F343E940006CB5A /* NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
+		1F2ABEF31F343E940006CB5A /* NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
+		1F2ABEF71F345CAA0006CB5A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		1F2ABEF91F345FD60006CB5A /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		1F2ABEFA1F345FD60006CB5A /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		1FE2E52E1F32C32B004B4A54 /* ofo-oc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ofo-oc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FE2E5321F32C32B004B4A54 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1FE2E5341F32C32B004B4A54 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1FE2E5351F32C32B004B4A54 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1FE2E5371F32C32B004B4A54 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1FE2E5381F32C32B004B4A54 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1FE2E53B1F32C32B004B4A54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1FE2E53D1F32C32B004B4A54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FE2E5401F32C32B004B4A54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F2ABEF81F345CAA0006CB5A /* MapKit.framework in Frameworks */,
 				197A27442C13AA014C724053 /* libPods-ofo-oc.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -67,8 +76,12 @@
 			children = (
 				1FE2E5341F32C32B004B4A54 /* AppDelegate.h */,
 				1FE2E5351F32C32B004B4A54 /* AppDelegate.m */,
-				1FE2E5371F32C32B004B4A54 /* ViewController.h */,
-				1FE2E5381F32C32B004B4A54 /* ViewController.m */,
+				1F2ABEF21F343E940006CB5A /* NavigationViewController.h */,
+				1F2ABEF31F343E940006CB5A /* NavigationViewController.m */,
+				1F2ABEEF1F340C230006CB5A /* ViewController.h */,
+				1F2ABEF01F340C230006CB5A /* ViewController.m */,
+				1F2ABEF91F345FD60006CB5A /* WebViewController.h */,
+				1F2ABEFA1F345FD60006CB5A /* WebViewController.m */,
 				1FE2E53A1F32C32B004B4A54 /* Main.storyboard */,
 				1FE2E53D1F32C32B004B4A54 /* Assets.xcassets */,
 				1FE2E53F1F32C32B004B4A54 /* LaunchScreen.storyboard */,
@@ -98,6 +111,7 @@
 		27120AC38848AFAC7EB42C03 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1F2ABEF71F345CAA0006CB5A /* MapKit.framework */,
 				4099A2CC7840929FFFD7F221 /* libPods-ofo-oc.a */,
 			);
 			name = Frameworks;
@@ -226,7 +240,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FE2E5391F32C32B004B4A54 /* ViewController.m in Sources */,
+				1F2ABEF41F343E940006CB5A /* NavigationViewController.m in Sources */,
+				1F2ABEFB1F345FD60006CB5A /* WebViewController.m in Sources */,
+				1F2ABEF11F340C230006CB5A /* ViewController.m in Sources */,
 				1FE2E5361F32C32B004B4A54 /* AppDelegate.m in Sources */,
 				1FE2E5331F32C32B004B4A54 /* main.m in Sources */,
 			);

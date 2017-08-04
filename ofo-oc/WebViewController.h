@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  WebViewController.h
 //  ofo-oc
 //
 //  Created by zhangdy on 17/8/4.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface WebViewController : UIViewController
 
 @end
