@@ -20,6 +20,7 @@
     //不用蓝色图标
     self.navigationItem.leftBarButtonItem.image = [[UIImage imageNamed:@"leftTopImage"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     self.navigationItem.rightBarButtonItem.image = [[UIImage imageNamed:@"rightTopImage"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc]initWithTitle:@"" style:UIBarButtonItemStylePlain target:nil action:nil];
     
 //    self.navigationItem.titleView = UIImageView(image: #imageLiteral(resourceName: "ofoLogo"))
 //    self.navigationItem.leftBarButtonItem?.image = #imageLiteral(resourceName: "leftTopImage").withRenderingMode(.alwaysOriginal)

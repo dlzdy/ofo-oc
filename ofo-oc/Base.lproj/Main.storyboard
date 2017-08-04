@@ -90,17 +90,21 @@
                     </view>
                     <navigationItem key="navigationItem" id="aQv-ip-Z3I">
                         <barButtonItem key="leftBarButtonItem" id="fHA-no-HQL"/>
-                        <barButtonItem key="rightBarButtonItem" id="EjG-Nv-WXQ"/>
+                        <barButtonItem key="rightBarButtonItem" id="EjG-Nv-WXQ">
+                            <connections>
+                                <segue destination="wqF-81-HKs" kind="show" id="YNt-AB-IvE"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1045.5999999999999" y="92.203898050974516"/>
         </scene>
-        <!--View Controller-->
+        <!--Web View Controller-->
         <scene sceneID="5b8-NM-4gp">
             <objects>
-                <viewController id="wqF-81-HKs" sceneMemberID="viewController">
+                <viewController id="wqF-81-HKs" customClass="WebViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="IVL-wv-2t1"/>
                         <viewControllerLayoutGuide type="bottom" id="vOr-YE-94C"/>

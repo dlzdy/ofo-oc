@@ -7,7 +7,7 @@
 //
 
 #import "WebViewController.h"
-#import "WKwi"
+#import <WebKit/WebKit.h>
 
 @interface WebViewController ()
 
@@ -18,7 +18,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     //添加WKWebView
+    WKWebView *webview = [[WKWebView alloc]initWithFrame:self.view.frame];
+    [self.view addSubview:webview];
     
+    self.title = @"热门活动";
+    NSURL *url= [NSURL URLWithString:@"http://m.ofo.so/active.html"];
+    NSURLRequest *request = [NSURLRequest requestWithURL:url];
+    [webview loadRequest:request];
+
 }
 
 - (void)didReceiveMemoryWarning {
